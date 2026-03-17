@@ -1,4 +1,4 @@
-# Proyecto-integrador-U2
+# Proyecto-integrador-U2 
 ## Tienda Tecnologica con flet
 Este repositorio presenta el desarrollo de una aplicación gráfica creada con Python y Flet, cuyo objetivo es mostrar una lista de productos tecnológicos mediante una interfaz moderna basada en componentes reutilizables.
 
