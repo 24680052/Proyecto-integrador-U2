@@ -397,3 +397,6 @@ El uso de una clase personalizada permite crear tarjetas de productos reutilizab
 
 Además, la generación dinámica de componentes a partir de una estructura de datos permite construir interfaces escalables y fáciles de mantener.
 
+# Para ejecutar en pagina web 
+
+https://2f86a346-c64e-4d7f-af80-52bf587b3b3f-00-2549799v5n9fv.spock.replit.dev/ 
