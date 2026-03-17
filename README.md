@@ -192,17 +192,18 @@ Flet buscará automáticamente el archivo dentro de la carpeta assets.
 
 # Codigo Completo
 
-`
-import flet as ft
-productos = [
+    
+     `` import flet as ft
+
+    productos = [
     {"nombre": "Laptop Gamer", "descripcion": "Laptop potente para juegos y diseño", "precio": 25000, "imagen": "laptop.png"},
     {"nombre": "Smartphone", "descripcion": "Teléfono con cámara de alta resolución", "precio": 12000, "imagen": "phone.png"},
     {"nombre": "Audífonos Bluetooth", "descripcion": "Sonido envolvente inalámbrico", "precio": 1800, "imagen": "audifonos.png"},
     {"nombre": "Smartwatch", "descripcion": "Reloj inteligente con monitor de salud", "precio": 3500, "imagen": "watch.png"},
     {"nombre": "Tablet", "descripcion": "Pantalla grande ideal para estudio", "precio": 8000, "imagen": "tablet.png"}
-]
+    ]
 
-class ProductoCard(ft.Container):
+    class ProductoCard(ft.Container):
 
     def __init__(self, producto, agregar_carrito, agregar_favorito):
         super().__init__()
@@ -281,7 +282,8 @@ class ProductoCard(ft.Container):
             self.icono_fav.icon = ft.Icons.FAVORITE_BORDER
 
         self.update()
-def main(page: ft.Page):
+
+    def main(page: ft.Page):
 
     page.title = "Tienda Tecnológica"
     page.bgcolor = "#f2f2f2"
@@ -293,6 +295,10 @@ def main(page: ft.Page):
     contador_carrito = ft.Text("0")
     contador_fav = ft.Text("0")
 
+    # -----------------------
+    # FUNCIONES
+    # -----------------------
+
     def agregar_carrito(producto):
         carrito.append(producto)
         contador_carrito.value = str(len(carrito))
@@ -303,12 +309,20 @@ def main(page: ft.Page):
         contador_fav.value = str(len(favoritos))
         page.update()
 
+    # -----------------------
+    # CREAR TARJETAS
+    # -----------------------
+
     cards = []
 
     for producto in productos:
         cards.append(
             ProductoCard(producto, agregar_carrito, agregar_favorito)
         )
+
+    # -----------------------
+    # INTERFAZ
+    # -----------------------
 
     page.add(
 
@@ -350,9 +364,9 @@ def main(page: ft.Page):
         )
 
     )
-ft.app(target=main, assets_dir="assets") 
 
-`
+    ft.app(target=main, assets_dir="assets")
+``
 # Ejecucion del codigo
 <img width="1119" height="678" alt="{F326041D-A645-454E-9819-D3EE580950C8}" src="https://github.com/user-attachments/assets/ad1e359f-dac6-4789-9c86-7b94ecf606c5" />
 
