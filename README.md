@@ -9,6 +9,25 @@ Además, se implementa el concepto de programación orientada a objetos, creando
 Este proyecto demuestra cómo organizar una interfaz gráfica usando componentes reutilizables, manejo de eventos y estructuras de datos dentro del framework Flet.
 
 # Pasos
+## Ejecución del Proyecto
+1. Crear entorno virtual (opcional)
+python -m venv venv
+
+2. Activar entorno
+Windows:
+
+venv\Scripts\activate
+
+Mac/Linux:
+
+source venv/bin/activate
+
+3. Instalar Flet
+pip install flet
+
+4. Ejecutar aplicación
+Catalogo_web.py
+
 
 1. Datos de productos
 
