@@ -16,14 +16,14 @@ python -m venv venv
 2. Activar entorno
 Windows:
 
-venv\Scripts\activate
+`venv\Scripts\activate`
 
 Mac/Linux:
 
-source venv/bin/activate
+`source venv/bin/activate`
 
 3. Instalar Flet
-pip install flet
+`pip install flet`
 
 4. Ejecutar aplicación
 Catalogo_web.py
@@ -208,6 +208,10 @@ Esto permite que las imágenes se carguen usando:
 ft.Image(src="/laptop.png")`
 
 Flet buscará automáticamente el archivo dentro de la carpeta assets.
+# Pagina web 
+
+## Abrir en Replit 
+
 
 # Codigo Completo
 
@@ -397,6 +401,3 @@ El uso de una clase personalizada permite crear tarjetas de productos reutilizab
 
 Además, la generación dinámica de componentes a partir de una estructura de datos permite construir interfaces escalables y fáciles de mantener.
 
-# Para ejecutar en pagina web 
-
-https://2f86a346-c64e-4d7f-af80-52bf587b3b3f-00-2549799v5n9fv.spock.replit.dev/ 
