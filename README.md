@@ -211,7 +211,7 @@ Flet buscará automáticamente el archivo dentro de la carpeta assets.
 # Pagina web 
 
 ## Abrir en Replit 
-# Guía para subir el proyecto a Replit y sincronizar con GitHub
+# Pasos para subir el proyecto a Replit y sincronizar con GitHub
 
 
 ### Configuración inicial en Replit
@@ -280,6 +280,23 @@ Confirma que la sincronización se realizó exitosamente y que todos los element
 `En Replit, probar ejecutar el proyecto con el botón "Run"`  
 
 Asegúrate de que el código funcione sin errores en el entorno de Replit, aprovechando la dependencia instalada desde `requirements.txt`.
+
+### Asi es como se muestra dado de alta en pagina web
+
+<img width="1072" height="633" alt="image" src="https://github.com/user-attachments/assets/d06a3398-ca2a-4ca3-8bae-3d0c6f1809b2" />
+
+### En esta imagen es para que si quieres compartir la pagina web tienes que seleccionar en
+
+<img width="228" height="42" alt="image" src="https://github.com/user-attachments/assets/cb5a54da-74e6-4284-a120-94797f94d406" />
+
+- Y se abrira lo siguiente
+
+
+
+- Ya solo seleccionas si quieres pasar link o QR que te proporciona
+- Una vez realizado eso lo puedes poner en algun navegador y tiene que cargar la pagina
+
+ 
 
 # Codigo Completo
 
