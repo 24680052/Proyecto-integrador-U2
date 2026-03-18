@@ -211,7 +211,75 @@ Flet buscará automáticamente el archivo dentro de la carpeta assets.
 # Pagina web 
 
 ## Abrir en Replit 
+# Guía para subir el proyecto a Replit y sincronizar con GitHub
 
+
+### Configuración inicial en Replit
+`Iniciar un nuevo proyecto o importar el existente en Replit`  
+
+Crea un workspace vacío en Replit o importa los archivos del proyecto si ya los tienes en tu equipo (mediante carga directa o vinculación con GitHub).
+
+
+`Agregar archivo requirements.txt`  
+`Escribir dentro: flet`  
+
+Define la dependencia principal del proyecto (Flet), para que Replit instale automáticamente lo necesario al ejecutar el código.
+
+
+### Conectar Replit con GitHub
+`Ir a la pestaña "Version Control" (icono de rama de árbol) en el panel izquierdo`  
+
+Accede a las herramientas de control de versiones integradas en Replit para gestionar el repositorio.
+
+
+`Hacer clic en "Connect GitHub" y autorizar la integración`  
+
+Vincula tu cuenta de Replit con la de GitHub para permitir la sincronización entre plataformas.
+
+
+`Clic en "Initialize Repository"`  
+
+Crea un repositorio local en el workspace de Replit, habilitando el seguimiento de cambios con Git.
+
+
+### Configurar el repositorio remoto de GitHub
+`Crear un repositorio nuevo en GitHub (puedes dejarlo vacío o agregar README/.gitignore/licencia)`  
+
+Prepara el espacio en GitHub donde se almacenará el proyecto.
+
+
+`Copiar la URL del repositorio GitHub (ejemplo: https://github.com/tu-usuario/Proyecto_integradorU2.git)`  
+
+Obtén la dirección para vincular el repositorio local de Replit con el remoto de GitHub.
+
+
+`En la terminal de Replit, ejecutar los comandos:`  
+`git remote add origin https://github.com/tu-usuario/Proyecto_integradorU2.git`  
+`git branch -M main`  
+
+Establece la conexión con el repositorio remoto y define la rama principal (ajusta a "master" si es tu caso).
+
+
+### Subir los archivos al repositorio
+`En la terminal de Replit, ejecutar secuencialmente:`  
+`git add .`  
+`git commit -m "Subida inicial del proyecto Flet a Replit y GitHub"`  
+`git push -u origin main`  
+
+- `git add .`: Agrega todos los archivos del proyecto al seguimiento de Git.  
+- `git commit -m "...":` Registra los cambios con un mensaje descriptivo.  
+- `git push ...`: Sube los archivos al repositorio de GitHub.
+
+
+### Verificación final
+`Ingresar al repositorio en GitHub y revisar que todos los archivos aparezcan correctamente`  
+
+Confirma que la sincronización se realizó exitosamente y que todos los elementos del proyecto están disponibles.
+
+
+`En Replit, probar ejecutar el proyecto con el botón "Run"`  
+
+Asegúrate de que el código funcione sin errores en el entorno de Replit, aprovechando la dependencia instalada desde `requirements.txt`.
 
 # Codigo Completo
 
