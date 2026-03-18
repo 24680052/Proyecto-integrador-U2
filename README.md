@@ -213,6 +213,7 @@ Flet buscará automáticamente el archivo dentro de la carpeta assets.
 ## Abrir en Replit 
 # Pasos para subir el proyecto a Replit y sincronizar con GitHub
 
+<img width="712" height="299" alt="image" src="https://github.com/user-attachments/assets/30053a5a-38b1-4764-9c94-ac5e838781a3" />
 
 ### Configuración inicial en Replit
 `Iniciar un nuevo proyecto o importar el existente en Replit`  
@@ -248,13 +249,14 @@ Crea un repositorio local en el workspace de Replit, habilitando el seguimiento 
 Prepara el espacio en GitHub donde se almacenará el proyecto.
 
 
-`Copiar la URL del repositorio GitHub (ejemplo: https://github.com/tu-usuario/Proyecto_integradorU2.git)`  
+`Copiar la URL del repositorio GitHub (ejemplo: https://github.com/24680052/tiendatec.git`  
+<img width="877" height="519" alt="image" src="https://github.com/user-attachments/assets/9da89534-0d48-4426-a8c6-fcc5267d4217" />
 
 Obtén la dirección para vincular el repositorio local de Replit con el remoto de GitHub.
 
 
 `En la terminal de Replit, ejecutar los comandos:`  
-`git remote add origin https://github.com/tu-usuario/Proyecto_integradorU2.git`  
+`git remote add origin https://github.com/24680052/tiendatec.git`  
 `git branch -M main`  
 
 Establece la conexión con el repositorio remoto y define la rama principal (ajusta a "master" si es tu caso).
@@ -272,7 +274,15 @@ Establece la conexión con el repositorio remoto y define la rama principal (aju
 
 
 ### Verificación final
-`Ingresar al repositorio en GitHub y revisar que todos los archivos aparezcan correctamente`  
+`Ingresar al repositorio en GitHub y revisar que todos los archivos aparezcan correctamente` 
+
+### Elegir la opcion de `Import design`
+y una ves dentro de esa parte, elegir `Gitgub`
+<img width="259" height="264" alt="image" src="https://github.com/user-attachments/assets/bcd4b28e-4fa4-4f40-8c43-f43b039661c5" />
+### Pegar tu URL 
+<img width="637" height="646" alt="image" src="https://github.com/user-attachments/assets/af796f4f-6437-4fa2-a868-300b33b088b1" />
+Y daras click en `Import` 
+
 
 Confirma que la sincronización se realizó exitosamente y que todos los elementos del proyecto están disponibles.
 
@@ -282,12 +292,11 @@ Confirma que la sincronización se realizó exitosamente y que todos los element
 Asegúrate de que el código funcione sin errores en el entorno de Replit, aprovechando la dependencia instalada desde `requirements.txt`.
 
 ### Asi es como se muestra dado de alta en pagina web
+<img width="1140" height="788" alt="image" src="https://github.com/user-attachments/assets/dc14e8a6-c0a2-4a0f-b45e-cd69a4bb044a" />
 
-<img width="1072" height="633" alt="image" src="https://github.com/user-attachments/assets/d06a3398-ca2a-4ca3-8bae-3d0c6f1809b2" />
 
 ### En esta imagen es para que si quieres compartir la pagina web tienes que seleccionar en
 
-<img width="228" height="42" alt="image" src="https://github.com/user-attachments/assets/cb5a54da-74e6-4284-a120-94797f94d406" />
 
 - Y se abrira lo siguiente
 
@@ -296,7 +305,8 @@ Asegúrate de que el código funcione sin errores en el entorno de Replit, aprov
 - Ya solo seleccionas si quieres pasar link o QR que te proporciona
 - Una vez realizado eso lo puedes poner en algun navegador y tiene que cargar la pagina
 
- 
+ <img width="504" height="351" alt="image" src="https://github.com/user-attachments/assets/9b432bf6-56d1-415c-98fa-72bc478575b3" />
+
 
 # Codigo Completo
 
